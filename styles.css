@@ -262,27 +262,61 @@ html {
     text-align: center;
 }
 
-.form {
+.form-container {
     border-radius: 20px;
     background-color: #0284C7;
     color: white;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
     width: 50%;
-    gap: 20px;
     display: flex;
-    text-align: center;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
 }
 
-.qua {
+form {
+    width: 100%;
     display: flex;
-
+    flex-direction: column;
+    gap: 15px;
 }
 
-.rat {
-    display: flex;
-    gap: 10px;
-    margin: 10px;
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
     padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
 }
+
+button {
+    background-color: white;
+    color: #0284C7;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+    .qua {
+        display: flex;
+        margin-right: 50px;
+    }
+
+    .rat {
+        display: flex;
+        gap: 10px;
+        margin: 10px;
+        padding: 10px;
+    }

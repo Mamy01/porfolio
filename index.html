@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz2WaauQpObPSFdr34hKpkes5Sp1FZ7jEWkQ&s" type="image/x-icon">
+  <link rel="shortcut icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz2WaauQpObPSFdr34hKpkes5Sp1FZ7jEWkQ&s"
+    type="image/x-icon">
 </head>
 
 <body>
@@ -59,7 +61,7 @@
       </div>
     </div>
     <div class="background">
-      <div class="blue-wave"id="education">
+      <div class="blue-wave" id="education">
         <h1 class="wave-text">Education</h1>
         <!-- Tu peux coder ici -->
         <br>
@@ -162,15 +164,18 @@
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxHIi1QLdRMlWIImVXN89In7tpPQyd48-pYQ&s"
             alt="femme assise">
         </div>
-        <div class="form">
+        <div class="form-container">
           <form action="https://formspree.io/f/xjvovqzj" method="POST">
             <label for="name">Fullname:</label>
-            <input type="text" name="fullname" placeholder="Fullname" required><br><br>
-            <label for="email">Email: </label>
-            <input type="email" name="email" placeholder="Email" required><br><br>
+            <input type="text" id="name" name="fullname" placeholder="Fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
             <label for="message">Message:</label>
-            <textarea name="message" rows="5" placeholder="Message"></textarea><br><br>
-            <button type="submit">Button</button>
+            <textarea id="message" name="message" rows="5" placeholder="Message"></textarea>
+
+            <button type="submit">Submit</button>
           </form>
         </div>
       </div>
@@ -183,44 +188,44 @@
       <h4>Interest with me ?</h4>
       <p>Following my social media</p>
       <div class="rat">
-      <img src="https://www.svgrepo.com/show/424915/facebook-logo-meta.svg" alt="facebook-logo-meta" width="35">
-      <img src="https://www.svgrepo.com/show/424911/instagram-logo-facebook-2.svg" alt="instagram" width="35">
+        <img src="https://www.svgrepo.com/show/424915/facebook-logo-meta.svg" alt="facebook-logo-meta" width="35">
+        <img src="https://www.svgrepo.com/show/424911/instagram-logo-facebook-2.svg" alt="instagram" width="35">
       </div>
       <p>© Youmane ka,2025. <br>All right reserved.</p>
     </div>
-      <!-- Vague 1 : Arrière-plan -->
-      <svg class="wave wave1" viewBox="0 0 1440 320" preserveAspectRatio="none">
-        <path fill="#0284C7" opacity="0.4">
-          <animate attributeName="d" dur="12s" repeatCount="indefinite" values="
+    <!-- Vague 1 : Arrière-plan -->
+    <svg class="wave wave1" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#0284C7" opacity="0.4">
+        <animate attributeName="d" dur="12s" repeatCount="indefinite" values="
                   M0,160 C360,200 1080,120 1440,160 L1440,320 L0,320 Z;
                   M0,180 C360,140 1080,200 1440,180 L1440,320 L0,320 Z;
                   M0,160 C360,200 1080,120 1440,160 L1440,320 L0,320 Z
                 " />
-        </path>
-      </svg>
+      </path>
+    </svg>
 
-      <!-- Vague 2 : Milieu -->
-      <svg class="wave wave2" viewBox="0 0 1440 320" preserveAspectRatio="none">
-        <path fill="#0284C7" opacity="0.6">
-          <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
+    <!-- Vague 2 : Milieu -->
+    <svg class="wave wave2" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#0284C7" opacity="0.6">
+        <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
                   M0,160 C360,200 1080,120 1440,160 L1440,320 L0,320 Z;
                   M0,170 C360,160 1080,180 1440,170 L1440,320 L0,320 Z;
                   M0,160 C360,200 1080,120 1440,160 L1440,320 L0,320 Z
                 " />
-        </path>
-      </svg>
+      </path>
+    </svg>
 
-      <!-- Vague 3 : Devant -->
-      <svg class="wave wave3" viewBox="0 0 1440 320" preserveAspectRatio="none">
-        <path fill="#0284C7">
-          <animate attributeName="d" dur="8s" repeatCount="indefinite" values="
+    <!-- Vague 3 : Devant -->
+    <svg class="wave wave3" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#0284C7">
+        <animate attributeName="d" dur="8s" repeatCount="indefinite" values="
                   M0,160 C360,200 1080,120 1440,160 L1440,320 L0,320 Z;
                   M0,150 C360,180 1080,160 1440,150 L1440,320 L0,320 Z;
                   M0,160 C360,200 1080,120 1440,160 L1440,320 L0,320 Z
                 " />
-        </path>
-      </svg>
-    </div>
+      </path>
+    </svg>
+  </div>
 </footer>
 
 </html>
